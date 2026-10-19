@@ -1,0 +1,11 @@
+/* Sidebar scrollbar छुपाने के लिए */
+.custom-sidebar-scroll::-webkit-scrollbar {
+  width: 4px; /* बहुत पतला स्क्रॉलबार */
+}
+.custom-sidebar-scroll::-webkit-scrollbar-thumb {
+  background: rgba(249, 115, 22, 0.4); /* ऑरेंज शेड थीम के साथ मैच करता हुआ */
+  border-radius: 4px;
+}
+.custom-sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}

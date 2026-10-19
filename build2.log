@@ -1,0 +1,847 @@
+
+> anytime-work@0.1.0 build
+> react-scripts build
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Creating an optimized production build...
+Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+
+Treating warnings as errors because process.env.CI = true.
+Most CI servers set it automatically.
+
+Failed to compile.
+
+Critical dependency: the request of a dependency is an expression
+
+[eslint] 
+src\common\components\DateRangeDropdown.jsx
+  Line 45:6:  React Hook useEffect has a missing dependency: 'setShowDateDropdown'. Either include it or remove the dependency array. If 'setShowDateDropdown' changes too often, find the parent component that defines it and wrap that definition in useCallback  react-hooks/exhaustive-deps
+
+src\common\context\AuthContext.jsx
+  Line 79:6:  React Hook useEffect has a missing dependency: 'allSettings'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\common\hooks\useAdminPermissions.js
+  Line 59:6:  React Hook useEffect has a missing dependency: 'fetchPermissions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\common\hooks\useCompanyPermissions.js
+  Line 58:6:  React Hook useEffect has a missing dependency: 'fetchPermissions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\UseProfileForm.js
+  Line 116:6:  React Hook useEffect has a missing dependency: 'initialFormState'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useAddCompany.js
+  Line 75:6:  React Hook useEffect has a missing dependency: 'formData.addresses?.length'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useAddWorker.js
+  Line 106:10:  'skills' is assigned a value but never used          no-unused-vars
+  Line 277:9:   'fetchStaffList' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\adminhooks\useAdminSiteSettings.js
+  Line 94:17:  'key' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\adminhooks\useAgentForm.js
+  Line 77:6:  React Hook useEffect has a missing dependency: 'fetchAgentData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useAgentListing.js
+  Line 78:5:  React Hook useCallback has a missing dependency: 'debouncedFilters'. Either include it or remove the dependency array    react-hooks/exhaustive-deps
+  Line 88:6:  React Hook useEffect has a missing dependency: 'abortPreviousRequest'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useCompanyListing.js
+  Line 172:6:  React Hook useEffect has a missing dependency: 'abortPreviousRequest'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useDressOrders.js
+  Line 37:28:  'setUnassignedOrders' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\adminhooks\useEditCompany.js
+  Line 132:6:  React Hook useCallback has a missing dependency: 'fetchCitiesByState'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useEditWorker.js
+  Line 122:24:  'setLoadingStaff' is assigned a value but never used                                                                                                                       no-unused-vars
+  Line 671:6:   React Hook useEffect has missing dependencies: 'initialBankDetails.account_number' and 'initialBankDetails.ifsc_code'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useJobOpeningsList.js
+  Line 95:6:   React Hook useEffect has a missing dependency: 'fetchJobOpenings'. Either include it or remove the dependency array                    react-hooks/exhaustive-deps
+  Line 103:6:  React Hook useEffect has missing dependencies: 'companyId' and 'fetchJobOpenings'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useNotifications.js
+  Line 586:6:  React Hook useEffect has a missing dependency: 'fetchNotifications'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useProfile.js
+  Line 58:6:  React Hook useEffect has a missing dependency: 'fetchProfile'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useReports.js
+  Line 528:6:  React Hook useEffect has a missing dependency: 'fetchCompaniesByIndustry'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useRoleForm.js
+  Line 36:6:  React Hook useEffect has a missing dependency: 'fetchPermissions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 42:6:  React Hook useEffect has a missing dependency: 'fetchRoleData'. Either include it or remove the dependency array     react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useRoleListing.js
+  Line 94:5:   React Hook useCallback has missing dependencies: 'buildApiParams' and 'debouncedFilters'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 108:6:  React Hook useEffect has missing dependencies: 'abortPreviousRequest' and 'fetchRoles'. Either include them or remove the dependency array    react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useSalaryStructureForm.js
+  Line 34:10:  'industries' is assigned a value but never used                                                                                                                                                                                                                    no-unused-vars
+  Line 36:10:  'designations' is assigned a value but never used                                                                                                                                                                                                                  no-unused-vars
+  Line 44:36:  'setDeductionTemplateLoading' is assigned a value but never used                                                                                                                                                                                                   no-unused-vars
+  Line 192:6:  React Hook useEffect has a missing dependency: 'location.search'. Either include it or remove the dependency array                                                                                                                                                 react-hooks/exhaustive-deps
+  Line 229:6:  React Hook useEffect has a missing dependency: 'defaultDeductions'. Either include it or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setDeductionComponents' needs the current value of 'defaultDeductions'  react-hooks/exhaustive-deps
+  Line 379:9:  'findDeduction' is assigned a value but never used                                                                                                                                                                                                                 no-unused-vars
+
+src\modules\admin\adminhooks\useStaffForm.js
+  Line 87:6:  React Hook useEffect has a missing dependency: 'fetchStaffData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useStaffListing.js
+  Line 16:24:  'setDesignations' is assigned a value but never used                                                                     no-unused-vars
+  Line 123:5:  React Hook useCallback has a missing dependency: 'debouncedFilters'. Either include it or remove the dependency array    react-hooks/exhaustive-deps
+  Line 139:6:  React Hook useEffect has a missing dependency: 'abortPreviousRequest'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useTdsForm.js
+  Line 33:6:  React Hook useEffect has missing dependencies: 'fetchTdsDetails' and 'isEditMode'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useTdsList.js
+  Line 73:6:  React Hook useEffect has a missing dependency: 'fetchTdsList'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useVacancyListing.js
+  Line 84:6:  React Hook useEffect has a missing dependency: 'abortPreviousRequest'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useVendorForm.js
+  Line 66:6:    React Hook useEffect has a missing dependency: 'fetchVendorData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 268:17:  Unnecessary escape character: \+                                                                                    no-useless-escape
+  Line 268:19:  Unnecessary escape character: \(                                                                                    no-useless-escape
+  Line 268:21:  Unnecessary escape character: \)                                                                                    no-useless-escape
+
+src\modules\admin\adminhooks\useVendorOrders.js
+  Line 110:6:  React Hook useEffect has a missing dependency: 'fetchStates'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useVendors.js
+  Line 86:5:  React Hook useCallback has a missing dependency: 'debouncedFilters'. Either include it or remove the dependency array                         react-hooks/exhaustive-deps
+  Line 96:6:  React Hook useEffect has missing dependencies: 'abortPreviousRequest' and 'fetchVendors'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useWorkerAttendance.js
+  Line 106:6:  React Hook useEffect has a missing dependency: 'fetchWorkers'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 114:6:  React Hook useEffect has a missing dependency: 'fetchWorkers'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\adminhooks\useWorkerListing.js
+  Line 160:5:  React Hook useCallback has a missing dependency: 'buildApiParams'. Either include it or remove the dependency array      react-hooks/exhaustive-deps
+  Line 170:6:  React Hook useEffect has a missing dependency: 'abortPreviousRequest'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\components\LogoutModal.jsx
+  Line 2:8:  'React' is defined but never used  no-unused-vars
+
+src\modules\admin\components\Sidebar.jsx
+  Line 32:3:   'BarChart3' is defined but never used                                                                                                                                                                                                                         no-unused-vars
+  Line 580:6:  React Hook useEffect has missing dependencies: 'isDressOrdersActive', 'isPathActive', 'isPayrollActive', 'isReferralsActive', 'isReportsActive', 'isRolesActive', 'isSupportActive', and 'isTeamsActive'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 627:9:  'canAccess' is assigned a value but never used                                                                                                                                                                                                                no-unused-vars
+
+src\modules\admin\components\agent\AgentForm.jsx
+  Line 72:6:   React Hook useEffect has a missing dependency: 'updateFormData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 158:9:  'handleUANChange' is assigned a value but never used                                                               no-unused-vars
+  Line 254:9:  'handlePaymentMethodChange' is assigned a value but never used                                                     no-unused-vars
+
+src\modules\admin\components\company\SingleAddCompanyForm.jsx
+  Line 112:6:  React Hook useEffect has a missing dependency: 'formData.addresses?.length'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\components\company\ViewCompanyModal.jsx
+  Line 67:9:   'renderIndustry' is assigned a value but never used  no-unused-vars
+  Line 110:9:  'renderRating' is assigned a value but never used    no-unused-vars
+
+src\modules\admin\components\company\ViewVacancyModal.jsx
+  Line 125:18:  Expected '===' and instead saw '=='  eqeqeq
+
+src\modules\admin\components\role-management\ViewRoleModal.jsx
+  Line 88:10:  'copiedPermission' is assigned a value but never used  no-unused-vars
+  Line 117:9:  'formatDateTime' is assigned a value but never used    no-unused-vars
+  Line 136:9:  'copyToClipboard' is assigned a value but never used   no-unused-vars
+
+src\modules\admin\components\staff\StaffForm.jsx
+  Line 211:55:  Expected '===' and instead saw '=='  eqeqeq
+
+src\modules\admin\components\staff\ViewStaffModal.jsx
+  Line 17:17:  'SmartphoneIcon' is defined but never used              no-unused-vars
+  Line 254:9:  'maskAccountNumber' is assigned a value but never used  no-unused-vars
+  Line 258:9:  'renderRating' is assigned a value but never used       no-unused-vars
+  Line 645:7:  'StatCard' is assigned a value but never used           no-unused-vars
+
+src\modules\admin\components\vacancy\VacancyWorkerView.jsx
+  Line 6:3:  'MapPin' is defined but never used  no-unused-vars
+
+src\modules\admin\components\vendor\VendorModal.jsx
+  Line 23:10:  'isDeleting' is assigned a value but never used    no-unused-vars
+  Line 42:9:   'handleDelete' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\components\worker\SingleAddWorkerForm.jsx
+  Line 203:6:    React Hook useEffect has a missing dependency: 'updateFormData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 1766:21:  No duplicate props allowed                                                                                         react/jsx-no-duplicate-props
+
+src\modules\admin\components\worker\WorkerCommentsModal.jsx
+  Line 46:6:  React Hook useEffect has a missing dependency: 'fetchComments'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\DressOrder\AddDressOrder.jsx
+  Line 76:6:   React Hook useEffect has a missing dependency: 'getWorkersForDressOrders'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 103:9:  'handleBackButton' is assigned a value but never used                                                                        no-unused-vars
+
+src\modules\admin\pages\DressOrder\EditDressOrder.jsx
+  Line 108:6:  React Hook useEffect has missing dependencies: 'getorderbyId' and 'navigate'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\DressOrder\ManageDressOrder.jsx
+  Line 85:10:  'searchQuery' is assigned a value but never used                                                                                      no-unused-vars
+  Line 215:6:  React Hook useEffect has missing dependencies: 'vendors' and 'vendorsByLocation'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\VendorManagement\EditVendor.jsx
+  Line 37:5:  'states' is assigned a value but never used  no-unused-vars
+  Line 38:5:  'cities' is assigned a value but never used  no-unused-vars
+  Line 50:5:  'mode' is assigned a value but never used    no-unused-vars
+
+src\modules\admin\pages\VendorManagement\VendorOrders.jsx
+  Line 147:9:  'getStatusIcon' is assigned a value but never used  no-unused-vars
+  Line 178:9:  'getNextStatus' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\pages\agent\AgentListing.jsx
+  Line 208:9:   'canExport' is assigned a value but never used  no-unused-vars
+  Line 390:51:  Expected '===' and instead saw '=='             eqeqeq
+  Line 489:51:  Expected '===' and instead saw '=='             eqeqeq
+
+src\modules\admin\pages\all-vacancy\AllVacancy.jsx
+  Line 346:54:  Expected '===' and instead saw '=='  eqeqeq
+  Line 384:48:  Expected '===' and instead saw '=='  eqeqeq
+  Line 408:55:  Expected '===' and instead saw '=='  eqeqeq
+  Line 446:49:  Expected '===' and instead saw '=='  eqeqeq
+  Line 471:41:  Expected '===' and instead saw '=='  eqeqeq
+  Line 516:56:  Expected '===' and instead saw '=='  eqeqeq
+
+src\modules\admin\pages\all-vacancy\ViewAppliedWorkers.jsx
+  Line 44:9:   'navigate' is assigned a value but never used            no-unused-vars
+  Line 48:35:  'permissionsLoading' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\pages\company\AddCompany.jsx
+  Line 34:9:   'validateColumns' is assigned a value but never used  no-unused-vars
+  Line 82:13:  'headers' is assigned a value but never used          no-unused-vars
+
+src\modules\admin\pages\company\AdminCompanyAllWorkers.jsx
+  Line 215:6:  React Hook useEffect has a missing dependency: 'filters.city_id'. Either include it or remove the dependency array                         react-hooks/exhaustive-deps
+  Line 343:6:  React Hook useEffect has missing dependencies: 'attendanceMap' and 'getFormattedDate'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\company\CompanyListing.jsx
+  Line 349:6:  React Hook useEffect has a missing dependency: 'setFilters'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 371:9:  'openCommissionModal' is assigned a value but never used                                                       no-unused-vars
+
+src\modules\admin\pages\company\CompanyPaymentDetails.jsx
+  Line 46:7:    'formatCurrency' is assigned a value but never used  no-unused-vars
+  Line 177:49:  'refresh' is assigned a value but never used         no-unused-vars
+
+src\modules\admin\pages\company\EditCompany.jsx
+  Line 43:5:  'cities' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\pages\company\JobOpeningsList.jsx
+  Line 32:26:  Unexpected empty object pattern                                                                                                       no-empty-pattern
+  Line 35:23:  'setCompanyName' is assigned a value but never used                                                                                   no-unused-vars
+  Line 48:10:  'filteredDesignations' is assigned a value but never used                                                                             no-unused-vars
+  Line 202:6:  React Hook useEffect has a missing dependency: 'filters.city_id'. Either include it or remove the dependency array                    react-hooks/exhaustive-deps
+  Line 235:6:  React Hook useEffect has missing dependencies: 'filters.status' and 'setFilters'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 243:6:  React Hook useEffect has a missing dependency: 'handleSearch'. Either include it or remove the dependency array                       react-hooks/exhaustive-deps
+
+src\modules\admin\pages\company\ViewCompanyDocuments.jsx
+  Line 27:9:   'navigate' is assigned a value but never used          no-unused-vars
+  Line 32:23:  'setCompanyName' is assigned a value but never used    no-unused-vars
+  Line 41:5:   'uploadingId' is assigned a value but never used       no-unused-vars
+  Line 44:5:   'handleDelete' is assigned a value but never used      no-unused-vars
+  Line 48:5:   'openPreview' is assigned a value but never used       no-unused-vars
+  Line 53:9:   'triggerFileInput' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\pages\configuration\SiteSettings.jsx
+  Line 147:11:  Unnecessary escape character: \+  no-useless-escape
+  Line 148:46:  Unnecessary escape character: \(  no-useless-escape
+  Line 148:48:  Unnecessary escape character: \)  no-useless-escape
+  Line 179:38:  Unnecessary escape character: \-  no-useless-escape
+
+src\modules\admin\pages\dashboard\Dashboard.jsx
+  Line 200:17:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src\modules\admin\pages\documents\AdminDocuments.jsx
+  Line 47:10:  'documentTypes' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\pages\industry-management\AddSkill.jsx
+  Line 4:36:  'X' is defined but never used  no-unused-vars
+
+src\modules\admin\pages\industry-management\DesignationByIndustry.jsx
+  Line 300:6:  React Hook useEffect has a missing dependency: 'handleSearch'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\industry-management\EditIndustry.jsx
+  Line 102:19:  'code' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\pages\industry-management\EditSkill.jsx
+  Line 76:6:  React Hook useEffect has a missing dependency: 'skillsListPath'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\industry-management\IndustryListing.jsx
+  Line 41:9:    'navigate' is assigned a value but never used                                                                    no-unused-vars
+  Line 406:11:  'timer' is assigned a value but never used                                                                       no-unused-vars
+  Line 410:6:   React Hook useEffect has a missing dependency: 'handleSearch'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\industry-management\SkillsByDesignation.jsx
+  Line 286:6:  React Hook useEffect has a missing dependency: 'handleSearch'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 318:9:  'handleClearAll' is assigned a value but never used                                                              no-unused-vars
+
+src\modules\admin\pages\myprofile\MyProfile.jsx
+  Line 490:7:  'hasBankData' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\pages\reports\EsicReports.jsx
+  Line 63:6:  React Hook useEffect has a missing dependency: 'fetchComplianceDocs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\reports\ManageReports.jsx
+  Line 52:10:  'isInitialLoad' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\pages\reports\PfReports.jsx
+  Line 7:3:   'Trash2' is defined but never used                                                                                      no-unused-vars
+  Line 64:6:  React Hook useEffect has a missing dependency: 'fetchComplianceDocs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\reports\WorkerPayoutReport.jsx
+  Line 120:6:  React Hook useEffect has a missing dependency: 'handleGenerate'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\reports\WorkerWalletEntriesReport.jsx
+  Line 122:6:  React Hook useEffect has a missing dependency: 'handleGenerate'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\reports\WorkerWalletTransactionsReport.jsx
+  Line 165:6:  React Hook useEffect has a missing dependency: 'handleGenerate'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\role-management\AddRole.jsx
+  Line 38:5:  'getSelectedPermissionsForBackend' is assigned a value but never used  no-unused-vars
+  Line 45:5:  'setFormData' is assigned a value but never used                       no-unused-vars
+
+src\modules\admin\pages\role-management\RoleListing.jsx
+  Line 31:10:  'showRoleTypeDropdown' is assigned a value but never used  no-unused-vars
+  Line 32:10:  'showStatusDropdown' is assigned a value but never used    no-unused-vars
+
+src\modules\admin\pages\salary-structure\EditSalaryStructure.jsx
+  Line 28:5:  'deductionComponents' is assigned a value but never used  no-unused-vars
+  Line 35:5:  'isEditMode' is assigned a value but never used           no-unused-vars
+
+src\modules\admin\pages\salary-structure\SalaryStructureListing.jsx
+  Line 80:9:  'openViewModal' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\pages\salary\AddSalaryConfig.jsx
+  Line 140:6:  React Hook useEffect has a missing dependency: 'configTypes'. Either include it or remove the dependency array     react-hooks/exhaustive-deps
+  Line 251:5:  React Hook useCallback has a missing dependency: 'validateForm'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\salary\EmployeeSalaraySetup.jsx
+  Line 29:21:  'setEmployees' is assigned a value but never used                                                                                                                                          no-unused-vars
+  Line 83:9:   The 'defaultRules' object makes the dependencies of useEffect Hook (at line 183) change on every render. To fix this, wrap the initialization of 'defaultRules' in its own useMemo() Hook  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\staff\EditStaff.jsx
+  Line 16:19:  'setLoading' is assigned a value but never used    no-unused-vars
+  Line 17:21:  'setStaffData' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\pages\staff\StaffListing.jsx
+  Line 76:10:  'industries' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 79:10:  'showIndustryDropdown' is assigned a value but never used                                                                                              no-unused-vars
+  Line 82:10:  'designations' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 85:10:  'showDesignationDropdown' is assigned a value but never used                                                                                           no-unused-vars
+  Line 86:10:  'designationsLoading' is assigned a value but never used                                                                                               no-unused-vars
+  Line 90:10:  'roles' is assigned a value but never used                                                                                                             no-unused-vars
+  Line 247:6:  React Hook useEffect has a missing dependency: 'statusTab'. Either include it or remove the dependency array                                           react-hooks/exhaustive-deps
+  Line 257:6:  React Hook useEffect has missing dependencies: 'filters.status', 'handleSearch', and 'setFilters'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 267:9:  'filteredIndustriesList' is assigned a value but never used                                                                                            no-unused-vars
+  Line 271:9:  'filteredDesignationsList' is assigned a value but never used                                                                                          no-unused-vars
+  Line 280:9:  'handleIndustrySelect' is assigned a value but never used                                                                                              no-unused-vars
+  Line 292:9:  'handleDesignationSelect' is assigned a value but never used                                                                                           no-unused-vars
+
+src\modules\admin\pages\team\AddTeam.jsx
+  Line 45:9:   The 'initialFormData' object makes the dependencies of useMemo Hook (at line 71) change on every render. To fix this, wrap the initialization of 'initialFormData' in its own useMemo() Hook  react-hooks/exhaustive-deps
+  Line 106:6:  React Hook useEffect has a missing dependency: 'getTeamLeadsList'. Either include it or remove the dependency array                                                                           react-hooks/exhaustive-deps
+
+src\modules\admin\pages\team\EditTeam.jsx
+  Line 51:9:   The 'initialFormData' object makes the dependencies of useMemo Hook (at line 81) change on every render. To fix this, wrap the initialization of 'initialFormData' in its own useMemo() Hook  react-hooks/exhaustive-deps
+  Line 105:6:  React Hook useEffect has a missing dependency: 'loadTeamData'. Either include it or remove the dependency array                                                                               react-hooks/exhaustive-deps
+  Line 111:6:  React Hook useEffect has missing dependencies: 'fetchStates' and 'getTeamLeadsList'. Either include them or remove the dependency array                                                       react-hooks/exhaustive-deps
+
+src\modules\admin\pages\team\ManageTeams.jsx
+  Line 66:6:  React Hook useEffect has missing dependencies: 'getTeamLeadsList' and 'getexistingTeamLeadsList'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\admin\pages\worker\AddWorker.jsx
+  Line 81:9:    'validateColumns' is assigned a value but never used  no-unused-vars
+  Line 129:13:  'headers' is assigned a value but never used          no-unused-vars
+
+src\modules\admin\pages\worker\AdminWorkerWallet.jsx
+  Line 139:6:  React Hook useEffect has a missing dependency: 'deductionView'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 165:6:  React Hook useEffect has a missing dependency: 'summary'. Either include it or remove the dependency array        react-hooks/exhaustive-deps
+
+src\modules\admin\pages\worker\EditWorker.jsx
+  Line 50:5:   'states' is assigned a value but never used                   no-unused-vars
+  Line 51:5:   'cities' is assigned a value but never used                   no-unused-vars
+  Line 65:5:   'resetForm' is assigned a value but never used                no-unused-vars
+  Line 67:5:   'workingCities' is assigned a value but never used            no-unused-vars
+  Line 96:10:  'showPassword' is assigned a value but never used             no-unused-vars
+  Line 96:24:  'setShowPassword' is assigned a value but never used          no-unused-vars
+  Line 97:10:  'showConfirmPassword' is assigned a value but never used      no-unused-vars
+  Line 97:31:  'setShowConfirmPassword' is assigned a value but never used   no-unused-vars
+  Line 351:9:  'handleAddNewDesignation' is assigned a value but never used  no-unused-vars
+  Line 545:9:  'handleGeneratePassword' is assigned a value but never used   no-unused-vars
+
+src\modules\admin\pages\worker\ViewWorkerDocuments.jsx
+  Line 35:5:   'openPreview' is assigned a value but never used    no-unused-vars
+  Line 45:22:  'setWorkerName' is assigned a value but never used  no-unused-vars
+
+src\modules\admin\pages\worker\WorkerListing.jsx
+  Line 181:6:  React Hook useEffect has a missing dependency: 'setFilters'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\agent\agenthooks\useAgentCompanyAdd.js
+  Line 58:6:  React Hook useEffect has a missing dependency: 'formData.addresses?.length'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\agent\agenthooks\useAgentCompanyEdit.js
+  Line 114:6:  React Hook useCallback has a missing dependency: 'fetchCitiesByState'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\agent\agenthooks\useAgentNotification.js
+  Line 326:6:  React Hook useEffect has a missing dependency: 'fetchNotifications'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\agent\agenthooks\useAgentSignup.js
+  Line 66:30:  'setDepartmentsLoading' is assigned a value but never used                                                                              no-unused-vars
+  Line 209:6:  React Hook useEffect has missing dependencies: 'fetchIndustries' and 'fetchStates'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 213:6:  React Hook useEffect has a missing dependency: 'fetchPermanentCities'. Either include it or remove the dependency array                 react-hooks/exhaustive-deps
+  Line 218:6:  React Hook useEffect has a missing dependency: 'fetchCurrentCities'. Either include it or remove the dependency array                   react-hooks/exhaustive-deps
+  Line 222:6:  React Hook useEffect has a missing dependency: 'fetchDesignations'. Either include it or remove the dependency array                    react-hooks/exhaustive-deps
+  Line 229:6:  React Hook useEffect has a missing dependency: 'fetchSavedData'. Either include it or remove the dependency array                       react-hooks/exhaustive-deps
+
+src\modules\agent\agenthooks\useAgentWallet.js
+  Line 147:6:  React Hook useCallback has a missing dependency: 'transformWalletData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\agent\agenthooks\useAgentWorkerListing.js
+  Line 88:5:  React Hook useCallback has a missing dependency: 'buildApiParams'. Either include it or remove the dependency array      react-hooks/exhaustive-deps
+  Line 99:6:  React Hook useEffect has a missing dependency: 'abortPreviousRequest'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\agent\agenthooks\useEditWorkerByAgent.js
+  Line 145:6:  React Hook useEffect has missing dependencies: 'fetchCitiesByState' and 'fetchWorkingCitiesByState'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 212:9:  'updateFormData' is assigned a value but never used                                                                                                      no-unused-vars
+
+src\modules\agent\components\Header.jsx
+  Line 46:10:  'unreadCount' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\components\Sidebar.jsx
+  Line 130:9:  'isActivePath' is assigned a value but never used          no-unused-vars
+  Line 171:9:  'renderSkeletonLoader' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\components\company\SingleAddCompany.jsx
+  Line 81:6:   React Hook useEffect has a missing dependency: 'formData.addresses?.length'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 138:9:  'handleServiceChargeTypeChange' is assigned a value but never used                                                             no-unused-vars
+  Line 143:9:  'handleServiceChargeChange' is assigned a value but never used                                                                 no-unused-vars
+
+src\modules\agent\components\company\ViewCompanyAgentModel.jsx
+  Line 49:9:  'renderRating' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\components\worker\SingleAddWorker.jsx
+  Line 215:9:  'fullyMaskValue' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\components\worker\ViewWorkerAgentModel.jsx
+  Line 39:10:  'expandedHistory' is assigned a value but never used       no-unused-vars
+  Line 39:27:  'setExpandedHistory' is assigned a value but never used    no-unused-vars
+  Line 179:9:  'renderCompactChanges' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\pages\AgentForgotPassword.jsx
+  Line 11:9:  'navigate' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\pages\AgentTermsAcceptance.jsx
+  Line 2:13:  'CheckCircle' is defined but never used            no-unused-vars
+  Line 90:9:  'handleAccept' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\pages\company\AddCompanyByAgent.jsx
+  Line 22:9:  'handleModeChange' is assigned a value but never used  no-unused-vars
+  Line 26:9:  'handleFileChange' is assigned a value but never used  no-unused-vars
+  Line 97:9:  'handleBulkUpload' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\pages\company\CompanyListByAgent.jsx
+  Line 43:5:  'handleDelete' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\pages\company\EditCompanyAgent.jsx
+  Line 28:5:   'setErrors' is assigned a value but never used                                                                                no-unused-vars
+  Line 29:5:   'loading' is assigned a value but never used                                                                                  no-unused-vars
+  Line 36:5:   'cities' is assigned a value but never used                                                                                   no-unused-vars
+  Line 73:6:   React Hook useEffect has a missing dependency: 'formData.addresses.length'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 313:9:  'handleServiceChargeTypeChange' is assigned a value but never used                                                            no-unused-vars
+  Line 318:9:  'handleServiceChargeChange' is assigned a value but never used                                                                no-unused-vars
+
+src\modules\agent\pages\dashboard\DashBoard.jsx
+  Line 44:5:  'agent' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\pages\dressorder\AddAgentDressOrder.jsx
+  Line 1:29:   'useRef' is defined but never used            no-unused-vars
+  Line 31:10:  'agentId' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\pages\dressorder\DressOrder.jsx
+  Line 3:37:   'Filter' is defined but never used                      no-unused-vars
+  Line 28:26:  'setFiltersVisible' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\pages\notification\AgentNotification.jsx
+  Line 23:5:  'stats' is assigned a value but never used                  no-unused-vars
+  Line 24:5:  'tabCounts' is assigned a value but never used              no-unused-vars
+  Line 28:5:  'clearOldNotifications' is assigned a value but never used  no-unused-vars
+  Line 48:9:  'rightNotifications' is assigned a value but never used     no-unused-vars
+
+src\modules\agent\pages\profile\AgentProfile.jsx
+  Line 50:7:  'formatBonusFrequency' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\pages\profile\EditAgentProfile.jsx
+  Line 55:5:    'setSuccessMsg' is assigned a value but never used                                                              no-unused-vars
+  Line 56:5:    'fetchCitiesByState' is assigned a value but never used                                                         no-unused-vars
+  Line 59:10:   'showPassword' is assigned a value but never used                                                               no-unused-vars
+  Line 59:24:   'setShowPassword' is assigned a value but never used                                                            no-unused-vars
+  Line 60:10:   'showConfirmPassword' is assigned a value but never used                                                        no-unused-vars
+  Line 60:31:   'setShowConfirmPassword' is assigned a value but never used                                                     no-unused-vars
+  Line 66:10:   'showDepartmentDropdown' is assigned a value but never used                                                     no-unused-vars
+  Line 91:6:    React Hook useEffect has a missing dependency: 'setFormData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 128:9:   'handlePasswordChange' is assigned a value but never used                                                       no-unused-vars
+  Line 166:9:   'handleUANChange' is assigned a value but never used                                                            no-unused-vars
+  Line 187:9:   'handleDepartmentSearch' is assigned a value but never used                                                     no-unused-vars
+  Line 192:9:   'handleDepartmentSelect' is assigned a value but never used                                                     no-unused-vars
+  Line 241:9:   'handlePaymentMethodChange' is assigned a value but never used                                                  no-unused-vars
+  Line 284:9:   'handlePasswordSubmit' is assigned a value but never used                                                       no-unused-vars
+  Line 734:45:  Expected '===' and instead saw '=='                                                                             eqeqeq
+  Line 784:45:  Expected '===' and instead saw '=='                                                                             eqeqeq
+
+src\modules\agent\pages\worker\AddWorkerByAgent.jsx
+  Line 30:9:  'handleModeChange' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\pages\worker\EditWorkerByAgent.jsx
+  Line 44:5:   'setErrors' is assigned a value but never used             no-unused-vars
+  Line 47:5:   'industries' is assigned a value but never used            no-unused-vars
+  Line 65:5:   'resetForm' is assigned a value but never used             no-unused-vars
+  Line 97:10:  'showIndustryDropdown' is assigned a value but never used  no-unused-vars
+  Line 216:9:  'handleIndustrySearch' is assigned a value but never used  no-unused-vars
+  Line 221:9:  'handleIndustrySelect' is assigned a value but never used  no-unused-vars
+
+src\modules\agent\pages\worker\WorkerListByAgent.jsx
+  Line 46:5:   'handleDelete' is assigned a value but never used        no-unused-vars
+  Line 47:5:   'handleToggleStatus' is assigned a value but never used  no-unused-vars
+  Line 62:10:  'isExporting' is assigned a value but never used         no-unused-vars
+  Line 181:9:  'filteredIndustries' is assigned a value but never used  no-unused-vars
+  Line 295:9:  'handleExportClick' is assigned a value but never used   no-unused-vars
+
+src\modules\attendance\FaceAttendanceRegister.jsx
+  Line 140:13:  'errorMsg' is assigned a value but never used  no-unused-vars
+
+src\modules\attendance\faceScannerAttendance.jsx
+  Line 10:7:  'MIN_DETECTION_SCORE' is assigned a value but never used    no-unused-vars
+  Line 14:7:  'TOTAL_REQUIRED_FRAMES' is assigned a value but never used  no-unused-vars
+  Line 17:7:  'TEXTURE_MIN' is assigned a value but never used            no-unused-vars
+  Line 18:7:  'TEXTURE_MAX' is assigned a value but never used            no-unused-vars
+  Line 19:7:  'MIN_LIVENESS_JITTER' is assigned a value but never used    no-unused-vars
+
+src\modules\company\companyhooks\useCompanyNotification.js
+  Line 339:6:  React Hook useEffect has a missing dependency: 'fetchNotifications'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\company\companyhooks\useCompanyRegister.js
+  Line 1505:9:   'navigate' is assigned a value but never used                                                                                                                  no-unused-vars
+  Line 1548:29:  'setIsFetchingProfile' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 1762:6:   React Hook useEffect has missing dependencies: 'fetchIndustries', 'fetchStates', and 'loadDataFromCookie'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 1850:9:   'gstRegex' is assigned a value but never used                                                                                                                  no-unused-vars
+  Line 1895:9:   'validateCurrentStep' is assigned a value but never used                                                                                                       no-unused-vars
+
+src\modules\company\companyhooks\useCompanyReportsForm.js
+  Line 82:6:   React Hook useEffect has missing dependencies: 'fetchReportData' and 'setDefaultValues'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 229:5:  Expected a default case                                                                                                                      default-case
+
+src\modules\company\companyhooks\useCompanyReportsManagement.js
+  Line 153:13:  'response' is assigned a value but never used  no-unused-vars
+
+src\modules\company\companyhooks\useCompanyRoleForm.js
+  Line 36:6:  React Hook useEffect has a missing dependency: 'fetchPermissions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 42:6:  React Hook useEffect has a missing dependency: 'fetchRoleData'. Either include it or remove the dependency array     react-hooks/exhaustive-deps
+
+src\modules\company\companyhooks\useCompanyRoleListing.js
+  Line 97:5:   React Hook useCallback has missing dependencies: 'buildApiParams' and 'debouncedFilters'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 111:6:  React Hook useEffect has missing dependencies: 'abortPreviousRequest' and 'fetchRoles'. Either include them or remove the dependency array    react-hooks/exhaustive-deps
+
+src\modules\company\companyhooks\useCompanyStaffForm.js
+  Line 17:9:  'parsedCompany' is assigned a value but never used                                                                 no-unused-vars
+  Line 82:6:  React Hook useEffect has a missing dependency: 'fetchStaffData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\company\companyhooks\useCompanyStaffListing.js
+  Line 82:6:  React Hook useEffect has a missing dependency: 'fetchStaffs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 88:6:  React Hook useEffect has a missing dependency: 'fetchStaffs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\company\companyhooks\useCompanyVacancyForm.js
+  Line 32:10:  'designations' is assigned a value but never used                                                                              no-unused-vars
+  Line 262:6:  React Hook useEffect has a missing dependency: 'parsedCompany?.industry_id'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\company\companyhooks\useCompanyVacancyListing.js
+  Line 98:6:  React Hook useEffect has a missing dependency: 'fetchVacancies'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\company\companyhooks\useVacancyApplications.js
+  Line 18:26:  'setVacancyDetails' is assigned a value but never used  no-unused-vars
+
+src\modules\company\companyhooks\useViewCompanyProfile.js
+  Line 57:6:  React Hook useEffect has a missing dependency: 'fetchCompanyProfile'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\company\companyhooks\useWorkerListing.js
+  Line 79:6:  React Hook useEffect has a missing dependency: 'fetchWorkers'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 84:6:  React Hook useEffect has a missing dependency: 'fetchWorkers'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\company\components\LogoutModal.jsx
+  Line 2:8:  'React' is defined but never used  no-unused-vars
+
+src\modules\company\components\Sidebar.jsx
+  Line 266:9:  'isActivePath' is assigned a value but never used                                                                       no-unused-vars
+  Line 338:6:  React Hook useEffect has a missing dependency: 'isDressOrdersActive'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\company\components\role-management\ViewRoleModal.jsx
+  Line 74:10:  'copiedPermission' is assigned a value but never used  no-unused-vars
+  Line 98:9:   'formatDateTime' is assigned a value but never used    no-unused-vars
+  Line 117:9:  'copyToClipboard' is assigned a value but never used   no-unused-vars
+
+src\modules\company\components\staff\CompanyStaffForm.jsx
+  Line 119:55:  Expected '===' and instead saw '=='  eqeqeq
+
+src\modules\company\components\vacancy\VacancyForm.jsx
+  Line 89:10:  'showIndustryDropdown' is assigned a value but never used  no-unused-vars
+  Line 90:10:  'industrySearch' is assigned a value but never used        no-unused-vars
+  Line 188:9:  'handleIndustrySearch' is assigned a value but never used  no-unused-vars
+  Line 194:9:  'handleIndustrySelect' is assigned a value but never used  no-unused-vars
+
+src\modules\company\components\vacancy\VacancyViewModal.jsx
+  Line 10:3:   'MapPin' is defined but never used                      no-unused-vars
+  Line 25:9:   'statusText' is assigned a value but never used         no-unused-vars
+  Line 100:9:  'getJobTypeDisplay' is assigned a value but never used  no-unused-vars
+
+src\modules\company\components\vacancy\VacancyWorkerView.jsx
+  Line 6:3:  'MapPin' is defined but never used  no-unused-vars
+
+src\modules\company\pages\CompanyAccountActivation.jsx
+  Line 11:10:   'loading' is assigned a value but never used               no-unused-vars
+  Line 110:11:  'demoActivateAccount' is assigned a value but never used   no-unused-vars
+  Line 123:19:  'updatedRegistrations' is assigned a value but never used  no-unused-vars
+  Line 186:9:   'handleResendEmail' is assigned a value but never used     no-unused-vars
+  Line 230:9:   'handleProceedToLogin' is assigned a value but never used  no-unused-vars
+  Line 234:9:   'handleProceedToTerms' is assigned a value but never used  no-unused-vars
+
+src\modules\company\pages\CompanyRegister.jsx
+  Line 4437:6:  React Hook useEffect has a missing dependency: 'handleChange'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\company\pages\CompanyRegisterSuccess.jsx
+  Line 1:17:  'useEffect' is defined but never used                no-unused-vars
+  Line 2:47:  'Copy' is defined but never used                     no-unused-vars
+  Line 8:9:   'navigate' is assigned a value but never used        no-unused-vars
+  Line 17:9:  'handleCopyCode' is assigned a value but never used  no-unused-vars
+
+src\modules\company\pages\CompanyTermsAcceptance.jsx
+  Line 2:13:   'CheckCircle' is defined but never used            no-unused-vars
+  Line 208:9:  'handleAccept' is assigned a value but never used  no-unused-vars
+
+src\modules\company\pages\all-workers\CompanyAllWorkers.jsx
+  Line 225:6:  React Hook useEffect has a missing dependency: 'filters.city_id'. Either include it or remove the dependency array                         react-hooks/exhaustive-deps
+  Line 356:6:  React Hook useEffect has missing dependencies: 'attendanceMap' and 'getFormattedDate'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\company\pages\configurations\ChangeCompanyPassword.jsx
+  Line 2:18:  'AnimatePresence' is defined but never used  no-unused-vars
+
+src\modules\company\pages\configurations\EditUserProfile.jsx
+  Line 14:3:  'Calendar' is defined but never used                          no-unused-vars
+  Line 15:3:  'Briefcase' is defined but never used                         no-unused-vars
+  Line 25:5:  'setFormData' is assigned a value but never used              no-unused-vars
+  Line 29:5:  'designations' is assigned a value but never used             no-unused-vars
+  Line 38:9:  'showTab' is assigned a value but never used                  no-unused-vars
+  Line 69:9:  'handleDesignationSelect' is assigned a value but never used  no-unused-vars
+
+src\modules\company\pages\configurations\UserProfile.jsx
+  Line 47:9:   'getDesignationName' is assigned a value but never used  no-unused-vars
+  Line 51:21:  Expected '===' and instead saw '=='                      eqeqeq
+
+src\modules\company\pages\dashboard\DashBoard.jsx
+  Line 15:3:  'CalendarDays' is defined but never used                                                                                                                                                                                                                    no-unused-vars
+  Line 56:9:  The 'vacanciesFromApi' logical expression could make the dependencies of useEffect Hook (at line 67) change on every render. Move it inside the useEffect callback. Alternatively, wrap the initialization of 'vacanciesFromApi' in its own useMemo() Hook  react-hooks/exhaustive-deps
+  Line 69:9:  'formatDate' is assigned a value but never used                                                                                                                                                                                                             no-unused-vars
+
+src\modules\company\pages\notifcation\CompanyNotification.jsx
+  Line 54:9:  'rightNotifications' is assigned a value but never used  no-unused-vars
+
+src\modules\company\pages\profile\EditCompanyProfile.jsx
+  Line 28:5:    'successMsg' is assigned a value but never used            no-unused-vars
+  Line 37:5:    'handleAddressChange' is assigned a value but never used   no-unused-vars
+  Line 43:5:    'setSuccessMsg' is assigned a value but never used         no-unused-vars
+  Line 137:9:   'handleIndustryChange' is assigned a value but never used  no-unused-vars
+  Line 586:51:  Expected '===' and instead saw '=='                        eqeqeq
+
+src\modules\company\pages\reports\AnyTimeWorkDocuments.jsx
+  Line 26:9:  'getFileIcon' is assigned a value but never used  no-unused-vars
+
+src\modules\company\pages\reports\CompanyDocuments.jsx
+  Line 26:9:  'navigate' is assigned a value but never used     no-unused-vars
+  Line 40:9:  'getFileIcon' is assigned a value but never used  no-unused-vars
+
+src\modules\company\pages\reports\CreateInvoice.jsx
+  Line 10:3:  'FileText' is defined but never used   no-unused-vars
+  Line 17:3:  'FileCheck' is defined but never used  no-unused-vars
+  Line 22:3:  'Clock' is defined but never used      no-unused-vars
+  Line 23:3:  'Building' is defined but never used   no-unused-vars
+  Line 27:8:  'Swal' is defined but never used       no-unused-vars
+  Line 92:5:  Expected a default case                default-case
+
+src\modules\company\pages\reports\ReportsDashboard.jsx
+  Line 185:9:  'handleDelete' is assigned a value but never used  no-unused-vars
+
+src\modules\company\pages\role-management\AddCompanyRole.jsx
+  Line 3:3:    'ArrowLeft' is defined but never used                                  no-unused-vars
+  Line 6:3:    'Plus' is defined but never used                                       no-unused-vars
+  Line 7:3:    'Sparkles' is defined but never used                                   no-unused-vars
+  Line 8:3:    'Heart' is defined but never used                                      no-unused-vars
+  Line 9:3:    'Zap' is defined but never used                                        no-unused-vars
+  Line 20:43:  'sparkleVariants' is defined but never used                            no-unused-vars
+  Line 20:60:  'heartVariants' is defined but never used                              no-unused-vars
+  Line 20:75:  'zapVariants' is defined but never used                                no-unused-vars
+  Line 22:20:  'useEffect' is defined but never used                                  no-unused-vars
+  Line 40:5:   'getSelectedPermissionsForBackend' is assigned a value but never used  no-unused-vars
+  Line 47:5:   'setFormData' is assigned a value but never used                       no-unused-vars
+
+src\modules\company\pages\role-management\CompanyRoleListing.jsx
+  Line 27:10:  'filtersVisible' is assigned a value but never used        no-unused-vars
+  Line 28:10:  'showRoleTypeDropdown' is assigned a value but never used  no-unused-vars
+  Line 29:10:  'showStatusDropdown' is assigned a value but never used    no-unused-vars
+  Line 83:9:   'handleClearAll' is assigned a value but never used        no-unused-vars
+
+src\modules\company\pages\role-management\EditCompanyRole.jsx
+  Line 3:3:    'ArrowLeft' is defined but never used        no-unused-vars
+  Line 6:3:    'Sparkles' is defined but never used         no-unused-vars
+  Line 7:3:    'Heart' is defined but never used            no-unused-vars
+  Line 8:3:    'Zap' is defined but never used              no-unused-vars
+  Line 19:43:  'sparkleVariants' is defined but never used  no-unused-vars
+  Line 19:60:  'heartVariants' is defined but never used    no-unused-vars
+  Line 19:75:  'zapVariants' is defined but never used      no-unused-vars
+  Line 21:20:  'useEffect' is defined but never used        no-unused-vars
+
+src\modules\company\pages\staff\AddStaff.jsx
+  Line 2:10:  'ArrowLeft' is defined but never used          no-unused-vars
+  Line 2:21:  'UserPlus' is defined but never used           no-unused-vars
+  Line 11:9:  'navigate' is assigned a value but never used  no-unused-vars
+
+src\modules\company\pages\staff\EditStaff.jsx
+  Line 2:10:  'ArrowLeft' is defined but never used          no-unused-vars
+  Line 2:21:  'UserCheck' is defined but never used          no-unused-vars
+  Line 8:9:   'navigate' is assigned a value but never used  no-unused-vars
+
+src\modules\company\pages\staff\StaffListing.jsx
+  Line 4:3:    'Briefcase' is defined but never used                                                                                   no-unused-vars
+  Line 12:3:   'Filter' is defined but never used                                                                                      no-unused-vars
+  Line 15:3:   'Building2' is defined but never used                                                                                   no-unused-vars
+  Line 16:3:   'Search' is defined but never used                                                                                      no-unused-vars
+  Line 25:10:  'getIndustriesAPI' is defined but never used                                                                            no-unused-vars
+  Line 45:5:   'handleClear' is assigned a value but never used                                                                        no-unused-vars
+  Line 52:22:  'setIndustries' is assigned a value but never used                                                                      no-unused-vars
+  Line 53:10:  'filteredIndustries' is assigned a value but never used                                                                 no-unused-vars
+  Line 54:10:  'industrySearch' is assigned a value but never used                                                                     no-unused-vars
+  Line 55:10:  'showIndustryDropdown' is assigned a value but never used                                                               no-unused-vars
+  Line 57:9:   'industryId' is assigned a value but never used                                                                         no-unused-vars
+  Line 86:6:   React Hook useEffect has a missing dependency: 'getCurrentStaffType'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 105:9:  'handleIndustrySelect' is assigned a value but never used                                                               no-unused-vars
+  Line 115:9:  'handleIndustrySearch' is assigned a value but never used                                                               no-unused-vars
+
+src\modules\company\pages\support\CompanySupport.jsx
+  Line 10:3:  'FaWhatsapp' is defined but never used              no-unused-vars
+  Line 28:5:  'searchTerm' is assigned a value but never used     no-unused-vars
+  Line 29:5:  'setSearchTerm' is assigned a value but never used  no-unused-vars
+
+src\modules\company\pages\vacancy\AddVacancy.jsx
+  Line 2:10:  'ArrowLeft' is defined but never used          no-unused-vars
+  Line 2:21:  'Briefcase' is defined but never used          no-unused-vars
+  Line 8:9:   'navigate' is assigned a value but never used  no-unused-vars
+
+src\modules\company\pages\vacancy\EditVacancy.jsx
+  Line 2:10:  'ArrowLeft' is defined but never used          no-unused-vars
+  Line 2:21:  'Edit' is defined but never used               no-unused-vars
+  Line 8:9:   'navigate' is assigned a value but never used  no-unused-vars
+
+src\modules\company\pages\vacancy\VacancyListing.jsx
+  Line 41:10:  'states' is assigned a value but never used                                                                                           no-unused-vars
+  Line 42:10:  'statesLoading' is assigned a value but never used                                                                                    no-unused-vars
+  Line 134:6:  React Hook useEffect has missing dependencies: 'filters.status' and 'setFilters'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 142:6:  React Hook useEffect has a missing dependency: 'handleSearch'. Either include it or remove the dependency array                       react-hooks/exhaustive-deps
+
+src\modules\worker\pages\AboutusSection.jsx
+  Line 6:9:  'navigate' is assigned a value but never used  no-unused-vars
+
+src\modules\worker\pages\DownloadAppSection.jsx
+  Line 71:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 90:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\modules\worker\pages\HeroSection.jsx
+  Line 10:10:  'currentWord' is assigned a value but never used  no-unused-vars
+
+src\modules\worker\pages\LeandingHeader.jsx
+  Line 16:9:  'navigate' is assigned a value but never used  no-unused-vars
+
+src\modules\worker\pages\WorkerDashboard.jsx
+  Line 13:3:    'XCircle' is defined but never used                no-unused-vars
+  Line 15:3:    'MessageCircle' is defined but never used          no-unused-vars
+  Line 17:3:    'Mail' is defined but never used                   no-unused-vars
+  Line 43:3:    'itemVariants' is defined but never used           no-unused-vars
+  Line 72:5:    'clearFilters' is assigned a value but never used  no-unused-vars
+  Line 104:11:  'user' is assigned a value but never used          no-unused-vars
+  Line 410:9:   'getFileIcon' is assigned a value but never used   no-unused-vars
+
+src\modules\worker\pages\WorkerLogin.jsx
+  Line 323:3:   'User' is defined but never used         no-unused-vars
+  Line 327:3:   'HardHat' is defined but never used      no-unused-vars
+  Line 328:3:   'Wallet' is defined but never used       no-unused-vars
+  Line 329:3:   'Tablet' is defined but never used       no-unused-vars
+  Line 330:3:   'IndianRupee' is defined but never used  no-unused-vars
+  Line 334:10:  'Link' is defined but never used         no-unused-vars
+
+src\modules\worker\pages\WorkerSignup.jsx
+  Line 1115:10:  'verifying' is assigned a value but never used             no-unused-vars
+  Line 1173:10:  'referenceId' is assigned a value but never used           no-unused-vars
+  Line 1257:9:   'handleVerifyReferral' is assigned a value but never used  no-unused-vars
+  Line 1904:9:   'aadhaarLocked' is assigned a value but never used         no-unused-vars
+
+src\modules\worker\pages\WorkerTermsAcceptance.jsx
+  Line 3:13:   'CheckCircle' is defined but never used            no-unused-vars
+  Line 151:9:  'handleAccept' is assigned a value but never used  no-unused-vars
+
+src\modules\worker\pages\appliedjobs\AppliedJobs.jsx
+  Line 14:3:  'Award' is defined but never used  no-unused-vars
+
+src\modules\worker\pages\documents\WorkerDocuments.jsx
+  Line 37:9:  'navigate' is assigned a value but never used  no-unused-vars
+
+src\modules\worker\pages\dressorder\DressOrder.jsx
+  Line 28:26:  'setFiltersVisible' is assigned a value but never used  no-unused-vars
+
+src\modules\worker\pages\myprofile\EditWorkerProfile.jsx
+  Line 84:9:   'fileInputRef' is assigned a value but never used                                                               no-unused-vars
+  Line 106:6:  React Hook useEffect has a missing dependency: 'setFormData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 156:9:  'handlePasswordChange' is assigned a value but never used                                                       no-unused-vars
+  Line 258:9:  'handleIFSCChange' is assigned a value but never used                                                           no-unused-vars
+  Line 337:9:  'handlePaymentMethodChange' is assigned a value but never used                                                  no-unused-vars
+  Line 392:9:  'handlePasswordSubmit' is assigned a value but never used                                                       no-unused-vars
+
+src\modules\worker\pages\notification\WorkerNotification.jsx
+  Line 48:9:  'rightNotifications' is assigned a value but never used  no-unused-vars
+
+src\modules\worker\pages\wallet\WorkerWallet.jsx
+  Line 34:5:   'switchActiveBank' is assigned a value but never used                                                                  no-unused-vars
+  Line 87:6:   React Hook useEffect has a missing dependency: 'deductionView'. Either include it or remove the dependency array       react-hooks/exhaustive-deps
+  Line 112:6:  React Hook useEffect has a missing dependency: 'fetchWalletSummary'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 116:9:  'openBankModal' is assigned a value but never used                                                                     no-unused-vars
+  Line 162:6:  React Hook useEffect has a missing dependency: 'summary'. Either include it or remove the dependency array             react-hooks/exhaustive-deps
+
+src\modules\worker\workerhooks\useWorkerAppliedJobs.js
+  Line 238:6:  React Hook useCallback has a missing dependency: 'transformApplication'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\worker\workerhooks\useWorkerNotification.js
+  Line 325:6:  React Hook useEffect has a missing dependency: 'fetchNotifications'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\modules\worker\workerhooks\useWorkerProfile.js
+  Line 392:6:  React Hook useEffect has missing dependencies: 'initialBankDetails.account_number' and 'initialBankDetails.ifsc_code'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 539:6:  React Hook useEffect has a missing dependency: 'formData.industry_id'. Either include it or remove the dependency array                                                    react-hooks/exhaustive-deps
+  Line 552:6:  React Hook useEffect has a missing dependency: 'formData.designation_id'. Either include it or remove the dependency array                                                 react-hooks/exhaustive-deps
+  Line 565:6:  React Hook useEffect has a missing dependency: 'formData.department_id'. Either include it or remove the dependency array                                                  react-hooks/exhaustive-deps
+  Line 584:6:  React Hook useEffect has a missing dependency: 'fetchWorkerProfile'. Either include it or remove the dependency array                                                      react-hooks/exhaustive-deps
+
+src\modules\worker\workerhooks\useWorkerSignup.js
+  Line 122:10:  'aadhaarLoading' is assigned a value but never used                                                                                     no-unused-vars
+  Line 265:6:   React Hook useEffect has missing dependencies: 'fetchIndustries' and 'fetchStates'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 282:4:   React Hook useEffect has a missing dependency: 'formData.mobile_number'. Either include it or remove the dependency array               react-hooks/exhaustive-deps
+  Line 296:6:   React Hook useEffect has a missing dependency: 'loadDataFromCookie'. Either include it or remove the dependency array                   react-hooks/exhaustive-deps
+
+
