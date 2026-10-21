@@ -1,0 +1,31 @@
+name: ATW Frontend Tasks
+description: Build this React app with public settings, log in to ACR, and deploy its image.
+inputs:
+  operation:
+    description: Choose build-react, acr-login, or deploy.
+    required: true
+  app_config_endpoint:
+    description: App Configuration endpoint containing frontend- public settings.
+    required: false
+  config_label:
+    description: App Configuration label for this build.
+    required: false
+    default: dev
+  acr_name:
+    description: Registry name for acr-login.
+    required: false
+  app_name:
+    description: Existing frontend Container App name.
+    required: false
+  resource_group:
+    description: Frontend Container App resource group.
+    required: false
+  image:
+    description: Full image reference with its build tag.
+    required: false
+  runtime_identity_resource_id:
+    description: Full resource ID of the UAMI attached to the frontend app.
+    required: false
+runs:
+  using: node24
+  main: index.js
